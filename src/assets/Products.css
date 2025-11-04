@@ -29,8 +29,7 @@
 /* === PRODUCT CARD === */
 .product_card {
     border: 1px solid rgba(0, 0, 0, 0.2);
-    border-radius: 6px;
-    background: #fff;
+    background: white;
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -47,7 +46,7 @@
     height: 250px;
     object-fit: contain;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    background: #fcfcfc;
+    background: white;
 }
 
 /* === TEXT SECTION === */

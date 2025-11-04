@@ -1,16 +1,20 @@
 import "../../assets/ContactForm.css";
+import {useTranslation} from "react-i18next";
 
 const ContactForm = () => {
+
+    const { t } = useTranslation();
+
     return (
         <section id="ContactForm">
             <div className="contact-container">
                 <div className="contact-info">
-                    <h3>Biz bilan bog‘laning</h3>
+                    <h3>{t(`contactH3`)}</h3>
 
                     <div className="social-box">
                         <a href="#"><i className="fa-brands fa-telegram"></i></a>
                         <a href="https://instagram.com/ustoulmas" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-instagram"></i></a>
-                        <a href="#" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-facebook"></i></a>
+                        {/*<a href="#" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-facebook"></i></a>*/}
                         <a href="mailto:ulmaszondzuraev@gmail.com" target="_blank" rel="noopener noreferrer">
                             <i className="fa-solid fa-envelope"></i>
                         </a>

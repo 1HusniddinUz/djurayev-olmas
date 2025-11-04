@@ -1,9 +1,10 @@
 import { useState } from "react";
 import "../../assets/Navbar.css";
+import {useTranslation} from "react-i18next";
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
-
+    const { t , i18n } = useTranslation();
     const toggleMenu = () => {
         setMenuOpen(!menuOpen);
     };
@@ -14,16 +15,20 @@ const Navbar = () => {
                 {/* LEFT LINKS */}
                 <div className="nav_links">
                     <ul className={menuOpen ? "active" : ""}>
-                        <a href="#AboutUs"><li>About Us</li></a>
-                        <a href="#Products "><li>Products</li></a>
-                        <a href="#ContactForm"><li>Contact</li></a>
+                        <a href="#AboutUs"><li>{t(`about`)}</li></a>
+                        <a href="#Products "><li>{t(`products`)}</li></a>
+                        <a href="#ContactForm"><li>{t(`contact`)}</li></a>
 
                         {/* MOBILE LANGUAGE SELECT (hidden on desktop) */}
                         <div className="mobile_lang">
-                            <select>
-                                <option value="uz">O'zbek</option>
-                                <option value="en">English</option>
-                                <option value="ru">Русский</option>
+                            <select
+                                id="select"
+                                onChange={(e) => i18n.changeLanguage(e.target.value)}
+                                defaultValue="uz"
+                            >
+                                <option value="uz">🇺🇿 O'zbek</option>
+                                <option value="ru">🇷🇺 Русский</option>
+                                <option value="en">🇬🇧 English</option>
                             </select>
                         </div>
                     </ul>
@@ -36,10 +41,14 @@ const Navbar = () => {
 
                 {/* RIGHT LANGUAGE SELECT (hidden on mobile) */}
                 <div className="lang_provider">
-                    <select>
-                        <option value="uz">O'zbek</option>
-                        <option value="en">English</option>
-                        <option value="ru">Русский</option>
+                    <select
+                        id="select"
+                        onChange={(e) => i18n.changeLanguage(e.target.value)}
+                        defaultValue="uz"
+                    >
+                        <option value="uz">🇺🇿 O'zbek</option>
+                        <option value="ru">🇷🇺 Русский</option>
+                        <option value="en">🇬🇧 English</option>
                     </select>
                 </div>
 
