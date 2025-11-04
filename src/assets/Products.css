@@ -1,0 +1,122 @@
+#Products {
+    width: 100%;
+    padding: 120px 0 80px;
+}
+
+#Products .container {
+    width: 90%;
+    max-width: 1280px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+#Products h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #774A21;
+}
+
+/* === PRODUCT GRID === */
+.products_box {
+    padding: 40px 0px;
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+/* === PRODUCT CARD === */
+.product_card {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.product_card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+.product_card img {
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    background: #fcfcfc;
+}
+
+/* === TEXT SECTION === */
+.product_texts {
+    text-align: left;
+    padding: 15px 18px 20px;
+}
+
+.product_texts h4 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #111;
+    margin-bottom: 6px;
+}
+
+.product_texts p {
+    font-size: 0.9rem;
+    color: #444;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.product_texts span {
+    font-weight: 700;
+    color: #774A21;
+    font-size: 0.95rem;
+}
+
+/* === BUTTON SECTION === */
+.buttons_box {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.show_btn {
+    background: transparent;
+    border: 1px solid #222;
+    color: #111;
+    padding: 10px 25px;
+    font-family: "Cormorant SC", serif;
+    font-weight: 600;
+    font-size: 0.95rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.show_btn:hover {
+    background: #774A21;
+    color: #fff;
+    border-color: #774A21;
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 992px) {
+    /* Planshetlar uchun (2ta ustun) */
+    .products_box {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 576px) {
+    .product_card img
+    {
+        height: 150px;
+    }
+    /* Mobil uchun (1ta ustun) */
+    .products_box {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
