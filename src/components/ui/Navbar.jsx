@@ -16,7 +16,7 @@ const Navbar = () => {
                     <ul className={menuOpen ? "active" : ""}>
                         <a href="#AboutUs"><li>About Us</li></a>
                         <a href="#Products "><li>Products</li></a>
-                        <a href="#"><li>Contact</li></a>
+                        <a href="#ContactForm"><li>Contact</li></a>
 
                         {/* MOBILE LANGUAGE SELECT (hidden on desktop) */}
                         <div className="mobile_lang">
