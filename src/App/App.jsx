@@ -8,8 +8,8 @@ import translationsUz from "../locales/translationsUz.js";
 import translationsRu from "../locales/translationsRu.js";
 import translationsEn from "../locales/translationsEn.js";
 
-function App() {
 
+function App() {
     i18n.use(initReactI18next).init({
         resources: {
             uz: { translation: translationsUz },

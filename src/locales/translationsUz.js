@@ -4,8 +4,10 @@ const translationsUz = {
     products: `Cholg'u asboblari`,
     contact: `Bog'lanish uchun`,
 
-    aboutUsH3: "DJO'RAYEV O'LMAS",
-    aboutUsP: `Agar mening ishlarim Sizda rezonans uyg'otsa, Sizdan xabar olishdan mamnun bo'laman. Investor, ijodkor, hamkor yoki bu g'oyadan ilhomlangan inson bo'lishingiz muhim emas — Sizning ishtirokingiz ahamiyatli.\n\nEng go‘zal kelajaklar hamkorlikda yaratiladi. Agar bu yerda ko‘rgan narsangiz Sizni ilhomlantirsa — bu tasodif emas, bu rezonansdir. Rezonans — hamkorlikning boshlanishi.\n\nO‘ylaganlaringiz, savollaringiz yoki shunchaki tanishuv uchun yozing. Har bir aloqa yangi imkoniyatdir.`,
+    aboutUsH3: "DJO'RAYEV O'LMAS SADULLOYEVICH ",
+    aboutUsP: `Djuraev O'lmasjon Sadulloyevich — rubobsozlik anʼanalarini avloddan-avlodga yetkazib kelayotgan hunarmandlar sulolasining munosib davomchisi. U 1999 yilda, 17 yoshida, ota-bobolar merosini professional darajada davom ettirdi. Ustaning ruboblari nafis sadosi, aniq sozlanishi va puxta ishlanishi bilan ajralib turadi hamda mijozlar tomonidan yuksak baholanadi. Uning asboblari Oʻzbekistonning turli hududlarida keng tarqalgan, qoʻshni Tojikiston, Qozogʻiston va Qirgʻiziston bozorlarida eʼtirof topgan; shuningdek, AQShdagi oʻzbek muxlislari tomonidan ham qadrlanadi.
+
+Usta sohada toʻrt nafar shogirdni tarbiyalab, usta-shogird maktabining barqaror uzviyligini taʼminlab kelmoqda. Uning saʼy-harakatlari milliy musiqa merosini asrash va targʻib etish, hunarmandchilikni rivojlantirish hamda yoshlar bandligini mustahkamlashga xizmat qiladi. Shu orqali rubobsozlikning zamonaviy talablar bilan uygʻun, raqobatbardosh va barqaror taraqqiyotiga hissa qoʻshmoqda.`,
 
     productClose: `Barchasini yopish`,
     productMore: `Barchasini ko‘rish`,
