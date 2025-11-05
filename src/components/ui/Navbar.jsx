@@ -119,16 +119,16 @@ const Navbar = () => {
                                 role="menu"
                             >
                                 <li role="none">
-                                    <a role="menuitem" href="https://uzum.uz" target="_blank" rel="noopener noreferrer">Uzum Market</a>
+                                    <a role="menuitem" href="https://uzum.uz/uz/product/rubob-ozbek-xalqining-2082373" target="_blank" rel="noopener noreferrer">Uzum Market</a>
                                 </li>
                                 <li role="none">
-                                    <a role="menuitem" href="https://www.wildberries.ru" target="_blank" rel="noopener noreferrer">Wildberries</a>
+                                    <a role="menuitem" href="https://www.wildberries.ru/catalog/597276687/detail.aspx?targetUrl=GP" target="_blank" rel="noopener noreferrer">Wildberries</a>
                                 </li>
                                 <li role="none">
-                                    <a role="menuitem" href="https://www.ozon.ru" target="_blank" rel="noopener noreferrer">Ozon</a>
+                                    <a role="menuitem" href="https://www.ozon.ru/product/rubab-natsionalnyy-uzbekskiy-instrument-eto-strunnyy-shchipkovyy-instrument-3063993891/?oos_search=false" target="_blank" rel="noopener noreferrer">Ozon</a>
                                 </li>
                                 <li role="none">
-                                    <a role="menuitem" href="https://market.yandex.ru" target="_blank" rel="noopener noreferrer">Yandex Market</a>
+                                    <a role="menuitem" href="https://market.yandex.uz/card/rubab-natsionalnyy-uzbekskiy-instrument-eto-strunnyy-shchipkovyy-instrument/4743399934?businessId=216456918&showOriginalKmEmptyOffer=1&ogV=-6" target="_blank" rel="noopener noreferrer">Yandex Market</a>
                                 </li>
                             </ul>
                         </li>
