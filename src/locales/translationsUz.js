@@ -14,7 +14,8 @@ Usta sohada toʻrt nafar shogirdni tarbiyalab, usta-shogird maktabining barqaror
 
     // Contact
     contactH3: `Biz bilan bog‘laning`,
-
+    contactLoc: `Manzil: `,
+    contactP: `Buxoro viloyati Vobkent tumani Xajuvon MFY Avurduvon ko'chasi`,
     // === Products ===
     productsData: [
         { name: "Qashqar rubobi", info: "Odatda 3–4 asosiy sim bo‘ladi, sozlashlar ko‘pincha do–sol–do yoki re–la–re atrofida" },

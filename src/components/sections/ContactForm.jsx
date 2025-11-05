@@ -14,7 +14,6 @@ const ContactForm = () => {
                     <div className="social-box">
                         <a href="https://t.me/+998997174283" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-telegram"></i></a>
                         <a href="https://instagram.com/ustoulmas" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-instagram"></i></a>
-                        {/*<a href="#" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-facebook"></i></a>*/}
                         <a href="mailto:ulmaszondzuraev@gmail.com" target="_blank" rel="noopener noreferrer">
                             <i className="fa-solid fa-envelope"></i>
                         </a>
@@ -22,6 +21,7 @@ const ContactForm = () => {
 
                     <div className="contact-num">
                         <a href="tel:+998997174283">+998 (99) 717-42-83</a>
+                        <p> {t(`contactLoc`)} {t(`contactP`)}</p>
                     </div>
                 </div>
 

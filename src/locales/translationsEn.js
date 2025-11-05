@@ -13,6 +13,8 @@ As a master, he has trained four apprentices, ensuring the stable continuity of 
     productMore: `View All`,
 
     contactH3: `Contact Us`,
+    contactLoc: `Address: `,
+    contactP: `Avurduvon Street, Khajuvon , Vobkent District, Bukhara Region, Uzbekistan`,
 
     productsData: [
         {name: "Kashgar Rubab", info: "Usually has 3–4 main strings, tuned around C–G–C or D–A–D"},
